@@ -12,7 +12,8 @@
 
 Эта команда создаст новую папку под названием simple-todos со всеми файлами, которые нужны приложению Meteor:
 
-```client/main.js        # a JavaScript entry point loaded on the client
+```
+client/main.js        # a JavaScript entry point loaded on the client
 client/main.html      # an HTML file that defines view templates
 client/main.css       # a CSS file to define your app's styles
 server/main.js        # a JavaScript entry point loaded on the server
@@ -21,12 +22,15 @@ package.json          # a control file for installing npm packages
 package-lock.json     # describes the npm dependency tree
 node_modules/         # packages installed by npm
 .meteor/              # internal Meteor files
-.gitignore            # a control file for git```
+.gitignore            # a control file for git
+```
 
 Запустим только что созданное приложение:
 
-```cd simple-todos
-meteor```
+```
+cd simple-todos
+meteor
+```
 
 Откройте свой веб-браузер и перейдите по адресу http://localhost:3000 чтобы увидеть запущенное приложение.
 
